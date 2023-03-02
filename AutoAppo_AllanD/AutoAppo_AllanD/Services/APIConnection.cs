@@ -10,8 +10,8 @@ namespace AutoAppo_AllanD.Services
         //normalmente los API trabajan con una versión de pruebas y otra en producción 
         //además acá vamos a escribir la info del API Key que necesitamos para podernos validar 
 
-        public static string ProductionURLPrefix = "http://192.168.0.146:45455/api/";
-        public static string TestingURLPrefix = "http://192.168.0.146:45455/api/";
+        public static string ProductionURLPrefix = "http://192.168.0.169:45455/api/";
+        public static string TestingURLPrefix = "http://192.168.0.169:45455/api/";
 
         public static string ApiKeyName = "P6ApiKey";
         public static string ApiKeyValue = "AllanDelgadoQWERTYIasdfg654*";

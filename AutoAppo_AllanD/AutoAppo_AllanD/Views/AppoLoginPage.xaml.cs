@@ -79,10 +79,10 @@ namespace AutoAppo_AllanD.Views
 
         }
 
-        private void BtnSignUp_Clicked(object sender, EventArgs e)
+        private async void BtnSignUp_Clicked(object sender, EventArgs e)
         {
-            //REGISTRO DE NUEVO USUARIO
-
+            
+            await Navigation.PushAsync(new SignUpPage());
 
         }
     }
